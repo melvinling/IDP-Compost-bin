@@ -1,0 +1,12 @@
+{
+  "name": "compost-monitoring-dashboard-tests",
+  "private": true,
+  "scripts": {
+    "start": "node simulator/server.cjs",
+    "test:dashboard": "node tests/dashboard_test.cjs",
+    "test:simulator": "node tests/simulator_test.cjs",
+    "test:launcher": "node tests/launcher_test.cjs",
+    "test:simulator-browser": "node tests/simulator_browser_test.cjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"}
+}
